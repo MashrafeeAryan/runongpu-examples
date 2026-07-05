@@ -38,4 +38,4 @@
 [test]
 
 [run]
-test_python.py
+test_run.py
