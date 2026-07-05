@@ -28,12 +28,14 @@
 # [run]
 # ./build/my_program
 
+#cd cuda/vector-add && nvcc main.cu -o vector_add
+#cd cuda/vector-add && ./vector_add
+
 [setup]
 
 [build]
-cd cuda/vector-add && nvcc main.cu -o vector_add
 
 [test]
 
 [run]
-cd cuda/vector-add && ./vector_add
+test_python.py
