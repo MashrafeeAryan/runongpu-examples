@@ -28,13 +28,10 @@
 # [run]
 # ./build/my_program
 
-#cd cuda/vector-add && ./vector_add
-
 [setup]
 
 [build]
-nvcc test_cuda.cu -o test_cuda
-
+nvcc test_cuda.cu -o test_cuda 
 [test]
 
 [run]
